@@ -8,13 +8,13 @@ module clip()
  translate([21.8,38,1.99997]) rotate([0,0,-90]) clip();
  translate([98.2,38,1.99997]) rotate([0,0,-90]) clip();
 
- translate([19.8,-6.8,1.99997]) rotate([0,0,90]) clip();
- translate([96.2,-6.8,1.99997]) rotate([0,0,90]) clip();
+ translate([19.8,-7.5,1.99997]) rotate([0,0,90]) clip();
+ translate([96.2,-7.5,1.99997]) rotate([0,0,90]) clip();
 
  translate([-5.4,16,1.99997]) rotate([0,0,0]) clip();
- translate([67.7,16,1.99997]) rotate([0,0,0]) clip();
+ translate([66.5,16,1.99997]) rotate([0,0,15]) clip();
 
- translate([51.4,14,1.99997]) rotate([0,0,180]) clip();
+ translate([50.7,14,1.99997]) rotate([0,0,165]) clip();
  translate([123.5,14,1.99997]) rotate([0,0,180]) clip();
 
 
