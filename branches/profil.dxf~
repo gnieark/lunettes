@@ -23,7 +23,7 @@ $INSBASE
   9
 $EXTMIN
  10
--5
+-4
  20
 -13.68080573302675
  30
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-accroche
+0
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-4.004732845186636
+12.35369730989709
  22
-3.018381977761039
+9.613772225600849
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-12.04386322330203
+26.02127682395963
  41
 1.708128078817734
  42
@@ -2235,7 +2235,7 @@ AcDbLayerTableRecord
   2
 0
  70
-    1
+    0
  62
     7
   6
@@ -2257,7 +2257,7 @@ AcDbLayerTableRecord
   2
 accroche
  70
-    0
+    1
  62
     7
   6
@@ -2849,57 +2849,9 @@ AcDbArc
  51
 69.99999999999999
   0
-LINE
-  5
-55
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-84.50504516109075
- 20
-4.000000000000007
- 11
-3.67394039744206e-16
- 21
-6
-  0
-LINE
-  5
-56
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3.67394039744206e-16
- 20
-6
- 11
-0
- 21
-0
-  0
 CIRCLE
   5
-57
+55
 100
 AcDbEntity
   8
@@ -2921,7 +2873,7 @@ AcDbCircle
   0
 ARC
   5
-58
+56
 100
 AcDbEntity
   8
@@ -2949,175 +2901,7 @@ AcDbArc
   0
 LINE
   5
-59
-100
-AcDbEntity
-  8
-accroche-exterieur
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--2
- 20
--3
- 11
--3
- 21
--3
-  0
-LINE
-  5
-5A
-100
-AcDbEntity
-  8
-accroche-exterieur
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--3
- 20
--3
- 11
--3
- 21
-3
-  0
-LINE
-  5
-5B
-100
-AcDbEntity
-  8
-accroche-exterieur
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--3
- 20
-3
- 11
--2
- 21
-3
-  0
-LINE
-  5
-5C
-100
-AcDbEntity
-  8
-accroche-exterieur
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--2
- 20
-3
- 11
--2
- 21
--3
-  0
-LINE
-  5
-5D
-100
-AcDbEntity
-  8
-accroche
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--2.5
- 20
--3
- 11
--3.5
- 21
--3
-  0
-LINE
-  5
-5E
-100
-AcDbEntity
-  8
-accroche
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--2.5
- 20
--2
- 11
--2.5
- 21
--3
-  0
-LINE
-  5
-5F
-100
-AcDbEntity
-  8
-accroche
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1.224646799147353e-16
- 20
--2
- 11
--2.5
- 21
--2
-  0
-LINE
-  5
-60
+57
 100
 AcDbEntity
   8
@@ -3141,7 +2925,79 @@ AcDbLine
   0
 LINE
   5
-61
+58
+100
+AcDbEntity
+  8
+accroche
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-3
+ 20
+-3
+ 11
+-4
+ 21
+-3
+  0
+LINE
+  5
+59
+100
+AcDbEntity
+  8
+accroche
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-3
+ 20
+-2
+ 11
+-3
+ 21
+-3
+  0
+LINE
+  5
+5A
+100
+AcDbEntity
+  8
+accroche
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-4
+ 20
+5
+ 11
+-4
+ 21
+-3
+  0
+LINE
+  5
+5B
 100
 AcDbEntity
   8
@@ -3159,13 +3015,13 @@ AcDbLine
  20
 5
  11
--3.5
+-4
  21
 5
   0
 LINE
   5
-62
+5C
 100
 AcDbEntity
   8
@@ -3179,13 +3035,157 @@ ByLayer
 100
 AcDbLine
  10
--3.5
+-1.224646799147353e-16
+ 20
+-2
+ 11
+-3
+ 21
+-2
+  0
+LINE
+  5
+5D
+100
+AcDbEntity
+  8
+accroche-exterieur
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-3
+ 20
+-3
+ 11
+-4
+ 21
+-3
+  0
+LINE
+  5
+5E
+100
+AcDbEntity
+  8
+accroche-exterieur
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-4
+ 20
+-3
+ 11
+-4
+ 21
+5
+  0
+LINE
+  5
+5F
+100
+AcDbEntity
+  8
+accroche-exterieur
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-3
  20
 5
  11
--3.5
+-3
  21
 -3
+  0
+LINE
+  5
+60
+100
+AcDbEntity
+  8
+accroche-exterieur
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-4
+ 20
+5
+ 11
+-3
+ 21
+5
+  0
+LINE
+  5
+61
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.367778697655222e-16
+ 20
+5.5
+ 11
+84.50504516109075
+ 21
+4.000000000000007
+  0
+LINE
+  5
+62
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.367778697655222e-16
+ 20
+5.5
+ 11
+0
+ 21
+0
   0
 ENDSEC
   0

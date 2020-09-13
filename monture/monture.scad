@@ -30,7 +30,7 @@ difference()
         import (file="profil-exploded.dxf", layer="0", $fn=500);
        
     translate([0,0,2.99997])
-        linear_extrude (height=5, $fn = 200)
+        linear_extrude (height=6.5, $fn = 200)
         import (file="profil-exploded.dxf", layer="attache", $fn=500);
         
         translate([0,0,2.99997])
@@ -42,11 +42,11 @@ difference()
         linear_extrude (height=7, $fn = 200)
         import (file="profil-exploded.dxf", layer="coupure", $fn=500);
         
-         translate([-10,0,5.5])
+         translate([-10,0,6.6])
             rotate([270,0,0]) 
-            #cylinder(h = 50, r1 = 1.5, r2 = 1.5, center = true/false,  $fn=50);
+            cylinder(h = 50, r1 = 1.5, r2 = 1.5, center = true/false,  $fn=50);
         
-        translate([127.8,0,5.5])
+        translate([127.8,0,6.6])
         rotate([270,0,0]) 
         cylinder(h = 50, r1 = 1.5, r2 = 1.5, center = true/false,  $fn=50);
     }
